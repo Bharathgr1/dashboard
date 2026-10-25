@@ -1,0 +1,236 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/ab953fded0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+
+            <nav>
+                <img src="logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#sevices">Skills</a></li>
+                    <li><a href="#portfolio">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class="header-text">
+                <p>A Full-Stack Web Developer</p>
+                <h1>Hi, I'm <span>Bharath G R</span></h1>
+            </div>
+        </div>
+    </div>
+    
+    <!-- -------About------ -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png">
+                </div>
+
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p class="size">Hello! I'm <strong>Bharath G R</strong>, a passionate and versatile full-stack developer with a background in Computer Science and a keen interest
+                         in the IT field. With hands-on experience in both <strong>Frontend</strong> and <strong>Backend</strong> <strong>development</strong>, I thrive on creating innovative solutions
+                         and seamless user experiences.
+                         <br><br>
+                        I believe in the power of continuous learning and the importance of building strong professional relationships. My experiences
+                        have taught me the value of enthusiasm and curiosity in pursuing new skills and opportunities. I strive to bring creativity and
+                        dedication to every project, ensuring high-quality results and client satisfaction.
+                    </p>
+                    <br>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experiance')">Experiance</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tabs" id="skills">
+
+                        <ul>
+                            <li><span>UI/ux</span><br>Designin Web/App intwefaces</li>
+                            <li><span>Web development</span><br>Designin Web/App interfaces</li>
+                            <li><span>App development</span><br>Designin Web/App intwefaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Experiance">
+
+                        <ul>
+                            <li><span>June 2024 - current</span><br>Java Full-Stack Web development Training at Tap Academy</li>
+                            <li><span>July 2023 to august 2023</span><br>Intern at Pragmatic solutions</li>
+                            <li><span>App development</span><br>Designin Web/App intwefaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="Education">
+
+                        <ul>
+                            <li><span>2020-2024</span><br>MVJ College Of Engineering</li>
+                            <li><span>2018-2020</span><br>Sree Vijaya PU College</li>
+                            <li><span>2018</span><br>Sree Vijaya English High School</li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------------services------------------- -->
+
+    <br><br><br><br>
+    <div id="sevices">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>sdsafadfdffdfdsfddfdffd</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>sdsafadfdffdfdsfddfdffd</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App Design</h2>
+                    <p>sdsafadfdffdfdsfddfdffd</p>
+                    <a href="#">Learn more</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br><br><br><br><br>
+    <!-- -----------------portfolio-------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects  you to the talented people around the world.
+                            Download it from play store </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music App</h3>
+                        <p>The app connects  you to the talented people around the world.
+                            Download it from play store </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping App</h3>
+                        <p>The app connects  you to the talented people around the world.
+                            Download it from play store </p>
+                            <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <br><br><br><br><br><br>
+    <!-- ------------contact----------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-regular fa-envelope"></i>bharathgr0305@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>8867488629</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                    </div>
+                    <a href="Bharath_resume.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Bharath.</p>
+        </div>
+
+    </div>
+
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tabs");
+            }
+
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tabs");
+        }
+
+
+
+    </script>
+
+    <script>
+
+
+        var sidemenu=document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+
+
+    </script>
+</body>
+</html>
